@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  background-color: #000;
+  color: #fff;
+  width: 100vw;
+  padding: 1rem 5rem;
+}
+
+.navbar__left-logo {
+  font-size: 3.2rem;
+  color: #FF0000;
+}
+
+.navbar__right-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__right-info > li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navbar__right-info > :nth-child(1) {
+  padding-right: 2rem;
+  border-right: 1px solid;
+}
+
+.navbar__right-basket {
+  font-size: 2.2rem;
+}
+
+.navbar__right-user {
+  margin-right: 2rem;
+}
