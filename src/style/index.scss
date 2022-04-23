@@ -1,0 +1,20 @@
+@import './abstracts/variables/variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    line-height: 1.5;
+    margin: auto;
+    font-size: 1.6rem;
+}
+
+html {
+    font-size: 10px;
+}
