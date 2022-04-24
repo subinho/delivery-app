@@ -14,6 +14,7 @@
 .navbar__left-logo {
   font-size: 3.2rem;
   color: #FF0000;
+  cursor: pointer;
 }
 
 .navbar__right-info {
