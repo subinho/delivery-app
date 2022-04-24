@@ -1,0 +1,29 @@
+@import '../../style/abstracts/variables/variables.scss';
+@import '../../style/abstracts/functions/functions.scss';
+
+.home {
+    @include flex(column, center, center);
+    height: 100vh;
+    background: rgba(0,0,0, .7) url(../../assets/images/background-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+
+    & > h1 {
+        font-size: 8rem;
+        color: $clrWhite;
+    }
+
+    &__nav {
+        margin-top: 4rem;
+    }
+
+    &__nav-order, &__nav-locations {
+        padding: 2rem 4rem;
+        margin: 0 3rem;
+        color: $clrWhite;
+        background-color: $clrSecondary;
+        font-weight: $fontWeight-large;
+        border-radius: 3rem;
+    } 
+}
